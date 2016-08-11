@@ -1,11 +1,9 @@
 ==========
 UniBic: Universal Biclustering Algorithm
 ==========
-
 ---------
 Algorithm
 ---------
-
 UniBic is an elementary method by which biologically meaningful trend-preserving biclusters can be readily identifed from noisy and complex large data. The basic idea is to apply the longest common subsequence (LCS) framework to selected pairs of rows in an index matrix derived from an input data matrix to locate a seed for each bicluster to be identifed.
 
 Citing us: Wang, Z., Li, G., Robinson, R. W., Huang, X. (2016). UniBic: Sequential row-based biclustering algorithm for analysis of gene expression data. Scientific Reports, 6.

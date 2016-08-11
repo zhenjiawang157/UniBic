@@ -1,24 +1,34 @@
-=================
+==========
+UniBic: Universal Biclustering Algorithm
+==========
+---------
+Algorithm
+---------
+UniBic is an elementary method by which biologically meaningful trend-preserving biclusters can be readily identifed from noisy and complex large data. The basic idea is to apply the longest common subsequence (LCS) framework to selected pairs of rows in an index matrix derived from an input data matrix to locate a seed for each bicluster to be identifed.
+
+Citing us: Wang, Z., Li, G., Robinson, R. W., Huang, X. (2016). UniBic: Sequential row-based biclustering algorithm for analysis of gene expression data. Scientific Reports, 6.
+
+---------
 Usage
-==================
+---------
 This software provides a biclustering module for microarray data. For a set of genes and a set of conditions, the program outputs a block-like structure which shows uniform trending-preserving pattern within the block, the block would contain only subsets of all given genes under subsets of all given conditions. 
 
 Certain parts of the code uses open-source data structure library codes, including:
 - fib <http://resnet.uoregon.edu/~gurney_j/jmpc/fib.html>, copyright information in fib.c
 - Mark A. Weiss's data structure codes <http://www.cs.fiu.edu/~weiss/>
 
-==================
+---------
 Installation
-==================
+---------
 Simply put "unibic1.0.tar.gz" in any directory, 
 
 $ tar zxvf unibic1.0.tar.gz
 
 enter the folder "unibic1.0" and type "make" then the compiled codes are within the same directory as the source.
 
-==================
+---------
 Inputs and outputs
-==================
+---------
 The major program in the provided package is `unibic`, it can parse two 
 formats of files, discrete data and continuous data, and examples for each
 are provided. See help and look at all available options.
@@ -43,15 +53,15 @@ In '.blocks' file, you can see all the biclusters the program found, especially,
 
 As to '.chars' file, it provides the qualitative matrix of the microarray data to usrs with some details of how to discrete the data in '.rules' file. You can find further details about how to represent a microarray dataset with a qualitative matrix in our paper.
 
-==================
+---------
 Changelog
-==================
+---------
 Version 1.0 
 - latest version
 
-==================
+---------
 Contact
-==================
+---------
 Any questions, problems, bugs are welcome and should be dumped to
 Zhenjia Wang 'zhenjia.sdu@gmail.com'
 

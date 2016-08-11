@@ -3,7 +3,7 @@ UniBic: Universal Biclustering Algorithm
 
 Algorithm
 ---------
-UniBic is an elementary method by which biologically meaningful trend-preserving biclusters can be readily identified from noisy and complex large data. The basic idea is to apply the longest common subsequence (LCS) framework to selected pairs of rows in an index matrix derived from an input data matrix to locate a seed for each bicluster to be identifed.
+UniBic is an elementary method by which biologically meaningful trend-preserving biclusters can be readily identified from noisy and complex large data. The basic idea is to apply the longest common subsequence (LCS) framework to selected pairs of rows in an index matrix derived from an input data matrix to locate a seed for each bicluster to be identified.
 
 Citing us: Wang, Z., Li, G., Robinson, R. W., Huang, X. (2016). UniBic: Sequential row-based biclustering algorithm for analysis of gene expression data. Scientific Reports, 6.
 
@@ -46,14 +46,14 @@ Then look at a continuous data "example". Try to run
 
 This restricts no two blocks overlap more than 0.25 of the size of each one. And the other parameters are default value.
 
-For each input file, our program generates three output files, namely,'.blocks' file, '.chars'file and '.rules' file.
+For each input file, our program generates three output files, namely, '.blocks' file, '.chars'file and '.rules' file.
 
 In '.blocks' file, you can see all the biclusters the program found, especially, we use a blank line to separate the positively and the negatively (if any) correlated genes in each bicluster.
 
-As to '.chars' file, it provides the qualitative matrix of the microarray data to usrs with some details of how to discrete the data in '.rules' file. You can find further details about how to represent a microarray dataset with a qualitative matrix in our paper.
+As to '.chars' file, it provides the qualitative matrix of the microarray data to users with some details of how to discrete the data in '.rules' file. You can find further details about how to represent a microarray dataset with a qualitative matrix in our paper.
 
 
-Changelog
+Change log
 ---------
 Version 1.0 
 - latest version

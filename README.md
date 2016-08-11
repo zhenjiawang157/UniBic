@@ -1,4 +1,3 @@
-
 =================
 Usage
 ==================
@@ -54,9 +53,6 @@ Version 1.0
 Contact
 ==================
 Any questions, problems, bugs are welcome and should be dumped to
-Zhenjia Wang<zhenjia.sdu@gmail.com>
+Zhenjia Wang 'zhenjia.sdu@gmail.com'
 
 Creation: Dec. 22, 2014
-
-#--------------------------------------------------------------------------#
-
